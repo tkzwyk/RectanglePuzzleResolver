@@ -1,0 +1,2 @@
+# RectanglePuzzleResolver
+Rectangle Puzzle
