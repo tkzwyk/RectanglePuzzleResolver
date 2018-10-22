@@ -10,13 +10,13 @@ import static org.junit.Assert.assertThat;
  */
 public class RectanglePuzzleResolverTest {
     @Test
-    public void patter1() {
+    public void x_is_6_and_y_is_4() {
         assertThat(RectanglePuzzleResolver.getHalfOfNumberOfSquares(6, 4),
                 is(8L));
     }
 
     @Test
-    public void patter2() {
+    public void x_is_49288_and_y_is_30488() {
         assertThat(
                 RectanglePuzzleResolver.getHalfOfNumberOfSquares(49288, 30488),
                 is(751306388L));
