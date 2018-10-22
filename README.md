@@ -7,5 +7,5 @@ There is a rectangle consisted of some squares. The number of horizontal stacked
 ![Rectangle Puzzle Quiz](https://ibin.co/4Jz27fEmoo94.png)
 
 If excludes the squares which is intersected with the diagonal line, how many the total number of squares?
-But if a square which is intersected at only the vertex of the square, count it.
-e.g. Count the red squares in the above case.
+But if a square which is intersected at only the vertex of the square, count it.  
+For example, X is 6 and Y is 4 in the above picture. So count the red squares and the answer is 16.
