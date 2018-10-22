@@ -1,7 +1,5 @@
 package tkzwyk;
 
-import sample.IntersectPoint;
-
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
 import java.util.concurrent.atomic.AtomicLong;
