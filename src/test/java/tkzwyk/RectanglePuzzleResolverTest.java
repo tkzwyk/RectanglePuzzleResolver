@@ -11,12 +11,14 @@ import static org.junit.Assert.assertThat;
 public class RectanglePuzzleResolverTest {
     @Test
     public void patter1() {
-        assertThat(RectanglePuzzleResolver.getAnswer(6, 4), is(8L));
+        assertThat(RectanglePuzzleResolver.getHalfOfNumberOfSquares(6, 4),
+                is(8L));
     }
 
     @Test
     public void patter2() {
-        assertThat(RectanglePuzzleResolver.getAnswer(49288, 30488),
+        assertThat(
+                RectanglePuzzleResolver.getHalfOfNumberOfSquares(49288, 30488),
                 is(751306388L));
     }
 }
