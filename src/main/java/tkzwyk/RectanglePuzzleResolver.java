@@ -1,5 +1,7 @@
 package tkzwyk;
 
+import com.github.zawataki.IntersectionPoint;
+
 import java.awt.geom.Line2D;
 import java.awt.geom.Point2D;
 import java.util.concurrent.atomic.AtomicLong;
@@ -30,7 +32,7 @@ public class RectanglePuzzleResolver {
         AtomicLong halfNumberOfSquares = new AtomicLong();
         for (int x = 1; x < maxX; x++) {
 
-            IntersectPoint.getIntersectionPoint(line,
+            IntersectionPoint.getIntersectionPoint(line,
                     new Line2D.Double(x, 0, x, maxY)).ifPresent(point2D -> {
 
                 int intY = (int) (Math.floor(point2D.getY()));
