@@ -1,4 +1,4 @@
-package tkzwyk;
+package com.github.zawataki.RectanglePuzzleResolver;
 
 import org.junit.Test;
 
